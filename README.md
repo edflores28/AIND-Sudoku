@@ -3,11 +3,17 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Contraint propagation is how the naked twins strategy is implemented. This
+   strategy involves identifying the duplicates of a value withing a box and
+   it's peers. Once these duplicate values are identified then the duplicates
+   are removed from the peers.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Contraint propagation in this problem is implemented by identifying the
+   diagnol boxes. Once the diagnol boxes are identifies then they are added
+   to the unit list. Sine the diagnols are added in the unitlist, the previously
+   defined solution strategies can be used. 
 
 ### Install
 
